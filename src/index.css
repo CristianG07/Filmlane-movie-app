@@ -6,8 +6,28 @@
   * {
     @apply p-0 m-0 box-border
   }
-
   html {
-    @apply scroll-smooth
+    @apply scroll-smooth overflow-x-hidden
+  }
+  body {
+    @apply font-poppins
+  }
+  select {
+    @apply bg-transparent outline-none text-white font-semibold
+  }
+  option {
+    @apply text-black
+  }
+}
+
+@layer components {
+  .btn_primary {
+    @apply border-2 border-primary rounded-full text-white px-10 py-3
+  }
+  .text_links {
+    @apply gap-5 font-semibold text-white
+  }
+  .section {
+    @apply flex justify-between items-center w-[85%] lg:w-[90%] mx-auto
   }
 }

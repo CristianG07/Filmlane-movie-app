@@ -8,9 +8,14 @@ export default {
     extend: {
       colors: {
         'primary': '#E2D703',
+        'nav': '#181D23',
+        'secundary': '#2F3438',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
+      },
+      backgroundImage: {
+        'hero-bg': "url('/src/assets/images/hero-bg.jpg')",
       },
     },
   },
